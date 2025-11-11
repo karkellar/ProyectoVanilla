@@ -1,0 +1,14 @@
+body {
+    background-color: #CCCCFF;
+    text-align: center;
+    color: black;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.192);
+    display: inline-block;
+    position: center;
+    border: 20px;
+    border-radius: 5px;
+    border-color: blue;
+    text-align: center;
+}

@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/question.css">
     <title>PROYECTO VANILLA - KARLA</title>
 </head>
 <body>
-    
+    <section id="formulary">
+        <form id="questionary">
+            <label for="text"> Pregunta </label>
+            <br>
+            <input type="text" id="blank" placeholder="...">
+            <br>
+            <hr>
+            <input type="radio" name="option" value="true"> Verdadero
+            <input type="radio" name="option" value="false"> Falso
+            <br>
+            <hr>
+            <label for="text"> Puntuación </label>
+            <br>
+            <input type="text" placeholder="...">
+            <br> <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Atrás</button>
+        </form>
+    </section>
+    <aside id="inventory">
+        <div id="question">
+            Pregunta
+            <hr>
+        </div>
+        <div id="answer">
+            Respuesta
+            <hr>
+        </div>
+        <div id="points">
+            Puntuación
+            <hr>
+        </div>
+        <div id="status">
+            Estado
+            <hr>
+        </div>
+    </aside>
     <script src="questionary.js" defer></script>
 </body>
 </html>

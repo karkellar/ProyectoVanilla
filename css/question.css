@@ -1,0 +1,31 @@
+body {
+    background-color: #CCCCFF;
+    text-align: center;
+    color: #000000;
+    display: flex;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.192);
+    border: 20px;
+    border-radius: 5px;
+    border-color: blue;
+    text-align: center;
+}
+aside {
+    background-color: aqua;
+    display: flex;
+    gap: 130px;
+    border-color: #000000;
+    border: 100px;
+    border: solid;
+    margin: 10px;
+    padding: 20px;
+}
+section > form {
+    background-color: rgb(192, 151, 231);
+    border-color: #000000;
+    border: 100px;
+    border: solid;
+    margin: 10px;
+    padding: 20px;
+}

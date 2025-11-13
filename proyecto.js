@@ -35,12 +35,14 @@ function validateEmail(cadena) {
 // Evita que el form recargue la página y valida correctamente
 user.addEventListener('submit', function(event) {
 
+    
     // Evita que se recargue la página
     event.preventDefault();
     let emailUser = document.getElementById('valiName').value;
     localStorage.setItem (("usuario"), emailUser);
     if(validateEmail(emailUser)) {
         error.textContent = "";
+        window.location.href = "second.html";
     } else {
 
         //Si no es correcto el email, se hace que el usuario lo vuelva a intentar

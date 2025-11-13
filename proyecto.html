@@ -7,14 +7,18 @@
     <title>PROYECTO VANILLA - KARLA</title>
 </head>
 <body>
-    <div id="welcome">Bienvenido, pulsa O + K o espera 5 segundos.</div>
+    <div id="welcome" style="position: absolute; top: 30%; left: 30%;"><h2>Bienvenido, pulsa O + K o espera 5 segundos.</h2></div>
 
-    <div id="user">
-        <form>
+    <div id="user" style="position: absolute; top: 40%; left: 40%;">
+        <form action="second.html">
             <label for="text"> Usuario </label>
-            <input type="text" id="valiName" placeholder="...@...">
+            <br>
+            <input type="text" id="valiName" placeholder="Email...">
+            <br>
+            <button type="submit" id="enviar"> Enviar </button>
         </form>
     </div>
+    <div id="error" style="color: #ff0000; position: absolute; top: 50%; left: 40%;"></div>
     <script src="proyecto.js" defer></script>
 </body>
 </html>

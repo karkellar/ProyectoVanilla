@@ -4,6 +4,7 @@ greetings.innerText = '¡HOLA ' + localStorage.getItem("usuario") + '!';
 
 document.getElementById('hey').appendChild(greetings);
 
+//Si hay una fecha, aparece la anterior vex que apareció
 let lastDate = localStorage.getItem('fecha');
 if (lastDate) {
     let div = document.createElement('div');
